@@ -1,0 +1,21 @@
+import 'package:catalogue_plante/pages/categorie.dart';
+import 'package:catalogue_plante/pages/home_page.dart';
+import 'package:catalogue_plante/pages/info1_page.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: PageAnonce(),
+    );
+  }
+}
